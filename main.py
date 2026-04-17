@@ -4,7 +4,7 @@ import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = os.environ.get("7650364018:AAHqo2FPhBQ70tPBOJZkIhAWzhiZOYqrvTc")
+TOKEN = os.environ.get("8634686982:AAGOuKrvNURc1IPz_NRamWhgjwCyg4P6AUs")
 ADMIN_ID = int(os.environ.get("ADMIN_ID", "8308399232"))
 
 logging.basicConfig(level=logging.INFO)
